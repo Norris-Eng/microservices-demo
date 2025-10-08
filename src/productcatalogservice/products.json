@@ -2,111 +2,111 @@
     "products": [
         {
             "id": "OLJCESPC7Z",
-            "name": "Sunglasses",
-            "description": "Add a modern touch to your outfits with these sleek aviator sunglasses.",
+            "name": "Recycled Ocean Plastic Sunglasses",
+            "description": "Look good and do good. These stylish aviator sunglasses are crafted from 100% recycled ocean plastic.",
             "picture": "/static/img/products/sunglasses.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 19,
                 "nanos": 990000000
             },
-            "categories": ["accessories"]
+            "categories": ["accessories", "recycled"]
         },
         {
             "id": "66VCHSJNUP",
-            "name": "Tank Top",
-            "description": "Perfectly cropped cotton tank, with a scooped neckline.",
+            "name": "Organic Cotton Tank Top",
+            "description": "A wardrobe staple, ethically made from 100% GOTS-certified organic cotton. Soft, breathable, and kind to the planet.",
             "picture": "/static/img/products/tank-top.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 18,
                 "nanos": 990000000
             },
-            "categories": ["clothing", "tops"]
+            "categories": ["apparel", "organic"]
         },
         {
             "id": "1YMWWN1N4O",
-            "name": "Watch",
-            "description": "This gold-tone stainless steel watch will work with most of your outfits.",
+            "name": "Vegan Leather Watch",
+            "description": "Classic gold-tone style meets modern ethics. This beautiful watch features a high-quality strap made from durable, cruelty-free vegan leather.",
             "picture": "/static/img/products/watch.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 109,
                 "nanos": 990000000
             },
-            "categories": ["accessories"]
+            "categories": ["accessories", "vegan"]
         },
         {
             "id": "L9ECAV7KIM",
-            "name": "Loafers",
-            "description": "A neat addition to your summer wardrobe.",
+            "name": "Cruelty-Free Vegan Loafers",
+            "description": "Step out in style and compassion. These elegant loafers are crafted from premium vegan materials for a comfortable and ethical choice.",
             "picture": "/static/img/products/loafers.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 89,
                 "nanos": 990000000
             },
-            "categories": ["footwear"]
+            "categories": ["footwear", "vegan"]
         },
         {
             "id": "2ZYFJ3GM2N",
-            "name": "Hairdryer",
-            "description": "This lightweight hairdryer has 3 heat and speed settings. It's perfect for travel.",
+            "name": "Low-Wattage Eco-Dryer",
+            "description": "A powerful, lightweight hairdryer designed for energy efficiency. With 3 heat settings, it's perfect for everyday use and eco-conscious travel.",
             "picture": "/static/img/products/hairdryer.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 24,
                 "nanos": 990000000
             },
-            "categories": ["hair", "beauty"]
+            "categories": ["personal care", "electronics"]
         },
         {
             "id": "0PUK6V6EV0",
-            "name": "Candle Holder",
-            "description": "This small but intricate candle holder is an excellent gift.",
+            "name": "Hand-poured Soy Wax Candle",
+            "description": "Create a cozy atmosphere with our lavender and eucalyptus scented candle. Hand-poured using sustainable soy wax in a reusable ceramic holder.",
             "picture": "/static/img/products/candle-holder.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 18,
                 "nanos": 990000000
             },
-            "categories": ["decor", "home"]
+            "categories": ["home goods", "decor"]
         },
         {
             "id": "LS4PSXUNUM",
-            "name": "Salt & Pepper Shakers",
-            "description": "Add some flavor to your kitchen.",
+            "name": "Himalayan Salt & Peppercorn Grinders",
+            "description": "Elevate your meals with these stylish grinders, filled with mineral-rich Himalayan pink salt and fair-trade organic black peppercorns.",
             "picture": "/static/img/products/salt-and-pepper-shakers.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 18,
                 "nanos": 490000000
             },
-            "categories": ["kitchen"]
+            "categories": ["kitchen", "pantry"]
         },
         {
             "id": "9SIQT8TOJO",
-            "name": "Bamboo Glass Jar",
-            "description": "This bamboo glass jar can hold 57 oz (1.7 l) and is perfect for any kitchen.",
+            "name": "Reusable Bamboo Pantry Jar",
+            "description": "Ditch the plastic. This 57 oz (1.7 l) glass jar with a sustainable bamboo lid is perfect for storing pasta, grains, and other pantry staples.",
             "picture": "/static/img/products/bamboo-glass-jar.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 5,
                 "nanos": 490000000
             },
-            "categories": ["kitchen"]
+            "categories": ["kitchen", "storage"]
         },
         {
             "id": "6E92ZMYYFZ",
-            "name": "Mug",
-            "description": "A simple mug with a mustard interior.",
+            "name": "Fair Trade Ceramic Mug",
+            "description": "Enjoy your morning coffee in this beautifully simple mug, handcrafted by artisans in a fair trade certified workshop.",
             "picture": "/static/img/products/mug.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 8,
                 "nanos": 990000000
             },
-            "categories": ["kitchen"]
+            "categories": ["kitchen", "home goods"]
         }
     ]
 }
