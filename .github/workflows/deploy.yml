@@ -30,7 +30,7 @@ jobs:
             docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/adservice:latest ./src/adservice
             docker push ${{ secrets.ACR_NAME }}.azurecr.io/adservice:latest
 
-            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest ./src/cartservice
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest ./src/cartservice/src
             docker push ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest
 
             docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/checkoutservice:latest ./src/checkoutservice
