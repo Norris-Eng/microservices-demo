@@ -77,5 +77,5 @@ jobs:
 
       - name: Deploy to AKS
         run: |
-          sed -i 's|gcr.io/google-samples/microservices-demo|${{ secrets.ACR_NAME }}.azurecr.io|g' ./kubernetes-manifests/kubernetes-manifests.yaml
-          kubectl apply -f ./kubernetes-manifests/kubernetes-manifests.yaml
+          sed -i 's|gcr.io/google-samples/microservices-demo|${{ secrets.ACR_NAME }}.azurecr.io|g' ./release/kubernetes-manifests.yaml
+          kubectl apply -f ./release/kubernetes-manifests.yaml
