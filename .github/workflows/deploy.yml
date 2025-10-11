@@ -27,17 +27,38 @@ jobs:
 
       - name: Build and Push Docker Images
         run: |
-          docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/productcatalogservice:latest ./src/productcatalogservice
-          docker push ${{ secrets.ACR_NAME }}.azurecr.io/productcatalogservice:latest
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/adservice:latest ./src/adservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/adservice:latest
 
-          docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest ./src/cartservice
-          docker push ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest ./src/cartservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/cartservice:latest
 
-          docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/frontend:latest ./src/frontend
-          docker push ${{ secrets.ACR_NAME }}.azurecr.io/frontend:latest
-          # Add similar build/push commands for all other services...
-          # For brevity, only showing a few here. The full set is in the original repo's skaffold.yaml.
-          # This simplified version will get the main components working.
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/checkoutservice:latest ./src/checkoutservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/checkoutservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/currencyservice:latest ./src/currencyservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/currencyservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/emailservice:latest ./src/emailservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/emailservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/frontend:latest ./src/frontend
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/frontend:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/loadgenerator:latest ./src/loadgenerator
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/loadgenerator:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/paymentservice:latest ./src/paymentservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/paymentservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/productcatalogservice:latest ./src/productcatalogservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/productcatalogservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/recommendationservice:latest ./src/recommendationservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/recommendationservice:latest
+
+            docker build -t ${{ secrets.ACR_NAME }}.azurecr.io/shippingservice:latest ./src/shippingservice
+            docker push ${{ secrets.ACR_NAME }}.azurecr.io/shippingservice:latest
 
   deploy:
     runs-on: ubuntu-latest
