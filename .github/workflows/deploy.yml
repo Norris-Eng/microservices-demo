@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-
+  workflow_dispatch: {}
 env:
   RESOURCE_GROUP_NAME: "green-fork-rg"
   AKS_CLUSTER_NAME: "green-fork-aks-cluster"
